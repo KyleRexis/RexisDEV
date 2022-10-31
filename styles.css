@@ -27,3 +27,6 @@ html {
 .link-url:hover {
     color: #D90000;
 }
+.intro {
+    text-align: center;
+}
