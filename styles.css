@@ -1,6 +1,13 @@
-body-upper {
+h2 {
     text-shadow: 5px 5px 10px #FFFFFF;
     text-color: #color #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+h4 {
+    text-shadow: 5px 5px 10px #FFFFFF;
+    text-color: #color rgb(0, 0, 0);
     text-align: center;
     font-weight: bold;
     font-size: 20px;
