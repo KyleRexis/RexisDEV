@@ -1,1 +1,18 @@
+h2 {
+    text-shadow: 5px 5px 10px #FFFFFF;
+    text-color: #color #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+h4 {
+    text-shadow: 5px 5px 10px #FFFFFF;
+    text-color: #color #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
 
+p {
+    background: linear-gradient(90deg, #4C00FF 0%, #322A80 100%);
+}
