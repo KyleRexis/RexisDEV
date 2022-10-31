@@ -16,3 +16,14 @@ h4 {
 html {
     background: linear-gradient(90deg, #4C00FF 0%, #322A80 100%);
 }
+
+ .link-url {
+     color: #000000;
+     font-size: 18px;
+     text-decoration: none;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+ }
+.link-url:hover {
+    color: #D90000;
+}
