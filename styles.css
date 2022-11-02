@@ -46,7 +46,7 @@ body {
     }
 }
 
-#button-color:hover #about-color:hover {
+.button:hover {
     background: linear-gradient(-45deg, #064e7a, #08214f, #10354f, #08545d);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
@@ -64,15 +64,14 @@ body {
         background-position: 0 50%;
     }
 }
-#button-color #about-color {
+
+
+.button {
+    font-weight: bold;
     background: linear-gradient(-45deg, #17645f, #045b4c)
 }
 
-
-button {
+.about {
     font-weight: bold;
-}
-
-#about-text {
-    font-weight: bold;
+    background: linear-gradient(-45deg, #17645f, #045b4c)
 }
