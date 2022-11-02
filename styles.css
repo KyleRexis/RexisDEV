@@ -64,14 +64,3 @@ body {
         background-position: 0 50%;
     }
 }
-
-
-.button {
-    font-weight: bold;
-    background: linear-gradient(-45deg, #17645f, #045b4c)
-}
-
-.about {
-    font-weight: bold;
-    background: linear-gradient(-45deg, #17645f, #045b4c)
-}
