@@ -13,10 +13,6 @@ h4 {
     font-size: 20px;
 }
 
-html {
-    background: linear-gradient(90deg, #4C00FF 0%, #322A80 100%);
-}
-
  .link-url {
      color: #000000;
      font-size: 18px;
@@ -29,4 +25,54 @@ html {
 }
 .intro {
     text-align: center;
+}
+
+body {
+    background: linear-gradient(-45deg, #4c00ff, #0a0454, #004486, #00e7ff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+#button-color:hover #about-color:hover {
+    background: linear-gradient(-45deg, #064e7a, #08214f, #10354f, #08545d);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+#button-color #about-color {
+    background: linear-gradient(-45deg, #17645f, #045b4c)
+}
+
+
+button {
+    font-weight: bold;
+}
+
+#about-text {
+    font-weight: bold;
 }
